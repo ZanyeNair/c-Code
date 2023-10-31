@@ -5,9 +5,13 @@ int main(){//this is a function shockers
     int val = 2;//declaring a new variable
     val = val+2;
     int tval = val/2;
+    int x;
     int val1 = 1, val2 = 2, val3 = 3;
     cout << val + val1+ val2 + val3;//printing the variable
     const double pi = 3.14159265358979323846;
+    cout << "What number input" <<endl;
+    cin >> x;
+    cout << "The number is " << x << endl;
 
     return 0; // ends the method
 }   
